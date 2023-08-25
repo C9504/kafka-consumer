@@ -1,8 +1,8 @@
-package org.negrdo.events;
+package org.c9504.events;
 
 import org.eclipse.microprofile.reactive.messaging.Channel;
 import org.jboss.resteasy.annotations.SseElementType;
-import org.negrdo.entities.Project;
+import org.c9504.entities.Project;
 import org.reactivestreams.Publisher;
 
 import javax.inject.Inject;

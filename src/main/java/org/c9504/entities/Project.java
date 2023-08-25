@@ -1,8 +1,7 @@
-package org.negrdo.entities;
+package org.c9504.entities;
 
 import io.quarkus.mongodb.panache.PanacheMongoEntity;
 import io.quarkus.mongodb.panache.common.MongoEntity;
-import io.vertx.core.json.JsonObject;
 
 @MongoEntity(collection = "projects")
 public class Project extends PanacheMongoEntity {

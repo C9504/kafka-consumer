@@ -1,17 +1,16 @@
-package org.negrdo.consumers;
+package org.c9504.consumers;
 
 import io.quarkus.mailer.Mail;
 import io.quarkus.mailer.Mailer;
 import io.quarkus.mailer.reactive.ReactiveMailer;
 import io.smallrye.common.annotation.Blocking;
-import io.vertx.core.AsyncResult;
 import io.vertx.core.Vertx;
 import io.vertx.core.json.JsonObject;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.eclipse.microprofile.reactive.messaging.Acknowledgment;
 import org.eclipse.microprofile.reactive.messaging.Incoming;
 import org.jboss.logging.Logger;
-import org.negrdo.repositories.ProjectRepository;
+import org.c9504.repositories.ProjectRepository;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

@@ -1,11 +1,9 @@
-package org.negrdo.processors;
+package org.c9504.processors;
 
 import io.smallrye.reactive.messaging.annotations.Broadcast;
-import io.vertx.core.json.JsonObject;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.eclipse.microprofile.reactive.messaging.Incoming;
 import org.eclipse.microprofile.reactive.messaging.Outgoing;
-import org.negrdo.entities.Project;
 
 import javax.enterprise.context.ApplicationScoped;
 

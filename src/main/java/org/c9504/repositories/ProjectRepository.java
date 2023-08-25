@@ -1,7 +1,7 @@
-package org.negrdo.repositories;
+package org.c9504.repositories;
 
 import io.quarkus.mongodb.panache.PanacheMongoRepository;
-import org.negrdo.entities.Project;
+import org.c9504.entities.Project;
 
 import javax.enterprise.context.ApplicationScoped;
 
